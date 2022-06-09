@@ -19,7 +19,7 @@ and items in stores. This means they need the ability to add/remove and edit the
 groups.  
   
 ### Logging in
-There are three authenticated user for a fresh run;  
+There are three authenticated users for each fresh run since the app uses an in memory h2 database;  
 Username    Password  
 admin       admin  
 manager     manager  
