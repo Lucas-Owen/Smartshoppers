@@ -4,6 +4,7 @@ import org.smartshoppers.model.ShoppingItem;
 import org.smartshoppers.model.Store;
 import org.smartshoppers.service.UserSessionService;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.grid.Grid;

@@ -1,6 +1,5 @@
 package org.smartshoppers.views.customer;
 
-import java.util.HashSet;
 import java.util.Set;
 
 import org.smartshoppers.model.ShoppingItem;
@@ -11,7 +10,6 @@ import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.html.Div;
-import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;

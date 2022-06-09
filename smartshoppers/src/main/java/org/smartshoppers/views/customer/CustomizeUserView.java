@@ -2,7 +2,6 @@ package org.smartshoppers.views.customer;
 
 import org.smartshoppers.service.UserSessionService;
 import org.smartshoppers.views.forms.CustomizeUserForm;
-import org.smartshoppers.views.forms.UserSignUpForm;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vaadin.flow.component.UI;

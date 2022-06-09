@@ -10,10 +10,11 @@ import org.smartshoppers.service.UserSessionService;
 import org.smartshoppers.views.customer.CustomerSignUpView;
 import org.smartshoppers.views.forms.UserLoginForm;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dependency.CssImport;
-import com.vaadin.flow.component.html.*;
+import com.vaadin.flow.component.html.H1;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.BeforeEnterEvent;
 import com.vaadin.flow.router.BeforeEnterObserver;

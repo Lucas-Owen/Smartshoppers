@@ -1,5 +1,8 @@
 package org.smartshoppers.security;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.smartshoppers.views.LoginView;
 import org.springframework.security.web.savedrequest.DefaultSavedRequest;
 import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
@@ -8,9 +11,6 @@ import org.springframework.stereotype.Component;
 
 import com.vaadin.flow.server.VaadinServletRequest;
 import com.vaadin.flow.server.VaadinServletResponse;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 @Component
 public class CustomRequestCache extends HttpSessionRequestCache {

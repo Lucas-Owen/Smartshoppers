@@ -1,6 +1,7 @@
 package org.smartshoppers.dao;
 
 import java.util.Collection;
+
 import org.smartshoppers.model.Store;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

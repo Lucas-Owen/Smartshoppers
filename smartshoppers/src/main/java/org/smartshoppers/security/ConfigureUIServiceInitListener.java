@@ -1,14 +1,13 @@
 package org.smartshoppers.security;
 
-import com.vaadin.flow.component.UI;
-import com.vaadin.flow.component.notification.Notification;
-import com.vaadin.flow.router.BeforeEnterEvent;
-import com.vaadin.flow.server.ServiceInitEvent;
-import com.vaadin.flow.server.VaadinServiceInitListener;
-
 import org.smartshoppers.views.LoginView;
 import org.smartshoppers.views.customer.CustomerSignUpView;
 import org.springframework.stereotype.Component;
+
+import com.vaadin.flow.component.UI;
+import com.vaadin.flow.router.BeforeEnterEvent;
+import com.vaadin.flow.server.ServiceInitEvent;
+import com.vaadin.flow.server.VaadinServiceInitListener;
 
 @Component 
 public class ConfigureUIServiceInitListener implements VaadinServiceInitListener {

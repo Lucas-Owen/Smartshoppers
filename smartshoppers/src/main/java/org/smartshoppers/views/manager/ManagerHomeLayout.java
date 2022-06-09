@@ -4,7 +4,6 @@ import org.smartshoppers.model.User;
 import org.smartshoppers.security.SecurityService;
 import org.smartshoppers.service.UserSessionService;
 import org.smartshoppers.views.customer.CustomerHomeLayout;
-import org.smartshoppers.views.customer.CustomizeUserView;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.vaadin.flow.component.UI;

@@ -6,6 +6,7 @@ import org.smartshoppers.model.User;
 import org.smartshoppers.service.UserSessionService;
 import org.smartshoppers.views.forms.AddShoppingItemForm;
 import org.springframework.beans.factory.annotation.Autowired;
+
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
